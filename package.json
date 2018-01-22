@@ -1,5 +1,5 @@
 {
-    "name": "zhf.create-dom",
+    "name": "zhf.dom-create",
     "version": "1.0.0",
     "description": "no description",
     "main": "dist/index.min.js",
@@ -11,14 +11,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zhouhuafei/zhf.create-dom.git"
+        "url": "git+https://github.com/zhouhuafei/zhf.dom-create.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/zhouhuafei/zhf.create-dom/issues"
+        "url": "https://github.com/zhouhuafei/zhf.dom-create/issues"
     },
-    "homepage": "https://github.com/zhouhuafei/zhf.create-dom#readme",
+    "homepage": "https://github.com/zhouhuafei/zhf.dom-create#readme",
     "devDependencies": {
         "babel-eslint": "^8.0.2",
         "babel-preset-env": "^1.6.0",
