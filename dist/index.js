@@ -16,12 +16,12 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         }
         window.zhf[name] = factory();
     }
-})('domCreate', function () {
-    function domCreate(html) {
+})('htmlToDom', function () {
+    function htmlToDom(html) {
         var div = document.createElement('div');
         div.innerHTML = html;
         return div.children[0];
     }
 
-    return domCreate;
+    return htmlToDom;
 });

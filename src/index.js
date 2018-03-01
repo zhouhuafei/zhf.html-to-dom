@@ -9,12 +9,12 @@
         }
         window.zhf[name] = factory();
     }
-})('domCreate', function () {
-    function domCreate(html) {
+})('htmlToDom', function () {
+    function htmlToDom(html) {
         const div = document.createElement('div');
         div.innerHTML = html;
         return div.children[0];
     }
 
-    return domCreate;
+    return htmlToDom;
 });
