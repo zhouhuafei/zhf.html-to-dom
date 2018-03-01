@@ -20,7 +20,12 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     function htmlToDom(html) {
         var div = document.createElement('div');
         div.innerHTML = html;
-        return div.children[0];
+        var children = div.children;
+        if (children.length > 1) {
+            return children;
+        } else {
+            return children[0];
+        }
     }
 
     return htmlToDom;
